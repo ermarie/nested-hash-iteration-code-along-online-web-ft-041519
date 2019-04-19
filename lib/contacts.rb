@@ -15,5 +15,5 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-  puts contacts["Freddy Mercury"].includes?(:favorite_ice_cream_flavors)
+  puts contacts["Freddy Mercury"].key?(:favorite_ice_cream_flavors)
 end
