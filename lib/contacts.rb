@@ -19,6 +19,7 @@ def remove_strawberry(contacts)
     if contacts["Freddy Mercury"][:favorite_ice_cream_flavors].include?("strawberry")
       contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
       puts "contacts['Freddy Mercury'][:favorite_ice_cream_flavors]: #{contacts["Freddy Mercury"][:favorite_ice_cream_flavors]}"
+      contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
     end
   else
   end
